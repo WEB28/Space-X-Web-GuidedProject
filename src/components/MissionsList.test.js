@@ -56,11 +56,4 @@ test('MissionsList renders the list of missions', () => {
     expect(queryAllByTestId(/mission-list/i)).toHaveLength(2);
     expect(queryByTestId(/error-message/i)).toBeNull();
 
-    // const { queryAllByTestId, queryByTestId, rerender } = render(
-    //     <MissionsList missions={[]} error="" />
-    //   );
-    //   expect(queryAllByTestId(/mission-list/i)).toHaveLength(0);
-    //   rerender(<MissionsList missions={mockMissionsData} error="" />);
-    //   expect(queryAllByTestId(/mission-list/i)).toHaveLength(2);
-    //   expect(queryByTestId(/error-message/i)).toBeNull();
 })
